@@ -1,0 +1,38 @@
+.Container
+{
+  border-bottom : 2px solid var(--color-border);
+  background-color: rgba(0,0,0,.5);
+  color : white;
+  position : relative;
+  margin-bottom : 15px;
+}
+
+
+.Container span
+{
+  font-size: 1.2rem;
+  position: absolute;
+  top : 22px;
+  left : 15px;
+  transition: .15s all ease-in-out;
+  z-index: 2;
+}
+
+.Container input
+{
+  background-color: transparent;
+  outline : none;
+  border : none;
+
+  font-size: 1.2rem;
+  padding : 30px 15px 8px;
+  z-index: 3;
+}
+
+
+.Container input:focus + span, .Container .Filled + span
+{
+  font-size: .8rem;
+  top : 8px;
+  color : #AAA;
+}

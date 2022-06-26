@@ -1,0 +1,24 @@
+
+.Container
+{
+  flex : auto;
+  background-color: var(--color-panel);
+  height : 56px;
+  position : fixed;
+  top : 0;
+  left : 0;
+  right : 0;
+  box-shadow: var(--shadow-panel);
+  flex-direction: row;
+  padding : 0 10px;
+}
+
+
+.Container a
+{
+  text-decoration: none;
+  font-size : 1.4rem;
+  font-weight: 600;
+  padding : 0 10px;
+  justify-content: center;
+}

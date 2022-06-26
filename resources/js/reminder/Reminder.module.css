@@ -1,0 +1,26 @@
+.Table
+{
+  border-radius: 3px;
+  border : 2px solid var(--color-border);
+}
+
+.Table .Entry
+{
+  padding : 10px 14px 10px 20px;
+  font-weight: 600;
+  font-size : 1.2rem;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--color-opaque);
+}
+.Table .Entry:not(:last-child)
+{
+  border-bottom : 2px solid var(--color-border);
+}
+
+
+.Table .Entry :global(.btn)
+{
+  margin-left : auto;
+  font-size : 1rem;
+}
